@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Smooch Sans', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image:url('../img/pexels-pixabay-433124.jpg') ;
+    background-size: cover;
+    background-position: center ;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-image__link a {
+    background-color: #dbd0b382;
+    border: 2px solid #dbd0b3;
+    color: #423a2d;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__link a:hover{
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #dbd0b3;
+    color: #414949;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem ;
+}
+
+.quality-image{
+    background-attachment: fixed;
+    background-image: url('../img/pexels-negative-space-134577.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a {
+    background-color: #dbccbcc1;
+    border: 2px solid  #dbccbc;
+    color: #43342d;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.2); 
+}
+
+.quality-text{
+    background-color: #967c6a;
+    color: #43342d;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem ;
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url('../img/pexels-brigitte-tohm-133222.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a {
+    background-color:#b7b3ac8e ;
+    border: 2px solid #b7b3ac ;
+    color:#3f4a37 ;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.2); 
+}
+
+.origin-text{
+    background-color: #b99876;
+    color: #43342d;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem ;
+}
+
+.footer {
+    height: 250px;
+    background-color: #dbccbc;
+    color: #43342d;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #423a2d;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+   transform: scale(1.3);
+}
